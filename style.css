@@ -104,3 +104,10 @@ h1 {
     font-size: 40px;
     margin-top: 20px;
 }
+
+.date {
+    border-bottom: 2px solid #fff;
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 20px;
+}
