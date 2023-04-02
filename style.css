@@ -12,7 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(to top, #333, black);
+    background-image: url(img/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,6 +24,7 @@ h1 {
 }
 
 .relogio {
+    box-shadow: 5px 5px 5px black;
     width: 300px;
     height: 300px;
     border: 5px solid #fff;
@@ -96,6 +99,7 @@ h1 {
 }
 
 .digital {
+    border-bottom: 2px solid #fff;
     color: #FFF;
     font-size: 40px;
     margin-top: 20px;
